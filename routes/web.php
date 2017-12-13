@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/test', function () {
+  $user=\App\User::create([
+      'name'=>'qwe150840',
+      'password'=>'asd2007123',
+      'email'=>'qwe150840@gmail.com'
+  ]);
+  dd($user);
+});
+
+
+
+Route::get('/login', function () {
+   return view('login');    
 });
