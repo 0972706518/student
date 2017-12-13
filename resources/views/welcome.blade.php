@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    歡迎光臨學生資訊系統
                 </div>
 
                 <div class="links">
